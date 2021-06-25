@@ -43,22 +43,8 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 - Instale as dependências com o Yarn
 - Instale o Node.js
 - Crie um projeto no [Firebase](https://firebase.google.com/)
+- Adicione as credenciais do seu firebase em firebase.ts localizado na pasta raiz do projeto
 - Ative o firebase authentication com a autenticação do google
-- Crie um arquivo.env.local na raiz do arquivo e coloque todas as credenciais do firebase respeitando a seguinte ordem e nomes nas variáveis:
-
-REACT_APP_API_KEY,
-
-REACT_APP_AUTH_DOMAIN,
-
-REACT_APP_DATABASE_URL,
-
-REACT_APP_PROJECT_ID,
-
-REACT_APP_STORAGE_BUCKET ,
-
-REACT_APP_MESSAGEGING_SENDER_ID ,
-
-REACT_APP_APP_ID
 - Inicie o servidor com `yarn start`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
