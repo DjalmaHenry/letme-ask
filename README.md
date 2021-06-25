@@ -10,10 +10,6 @@
   <a href="#-protótipo">Protótipo</a>
 </p>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW 06" />
-</p>
-
 <br>
 
 <p align="center">
