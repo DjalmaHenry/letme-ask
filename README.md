@@ -40,8 +40,8 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com o Yarn
-- Instale o Node.js
+- Instale o [Node.js](https://nodejs.org/en/download/)
+- Instale o [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 - Crie um projeto no [Firebase](https://firebase.google.com/)
 - Adicione as credenciais do seu firebase em firebase.ts localizado na pasta raiz do projeto
 - Ative o firebase authentication com a autenticação do google
