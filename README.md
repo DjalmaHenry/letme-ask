@@ -43,7 +43,7 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 - Instale o [Node.js](https://nodejs.org/en/download/)
 - Instale o [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 - Crie um projeto no [Firebase](https://firebase.google.com/)
-- Adicione as credenciais do seu firebase em firebase.ts localizado na pasta raiz do projeto
+- Adicione as credenciais do seu firebase em firebase.ts localizado na pasta services
 - Ative o firebase authentication com a autenticação do google
 - Inicie o servidor com `yarn start`
 
