@@ -36,6 +36,24 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 🚀 Como executar
 
 - Clone o repositório
+- Instale o node.js
+- Crie um projeto no [Firebase](https://firebase.google.com/)
+- Ative o firebase authentication com a autenticação do google
+- Crie um arquivo.env.local na raiz do arquivo e coloque todas as credenciais do firebase respeitando a seguinte ordem e nomes nas variáveis:
+
+REACT_APP_API_KEY,
+
+REACT_APP_AUTH_DOMAIN,
+
+REACT_APP_DATABASE_URL,
+
+REACT_APP_PROJECT_ID,
+
+REACT_APP_STORAGE_BUCKET ,
+
+REACT_APP_MESSAGEGING_SENDER_ID ,
+
+REACT_APP_APP_ID
 - Instale as dependências com `yarn`
 - Inicie o servidor com `yarn start`
 
