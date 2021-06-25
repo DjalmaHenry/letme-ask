@@ -1,5 +1,6 @@
-import { FormEvent, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import firebase from 'firebase/app';
+import { FormEvent, useState } from 'react';
+import { useHistory, useParams } from 'react-router-dom';
 import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { Question } from '../components/Question';
@@ -17,6 +18,7 @@ export function Room() {
     const params = useParams<RoomParams>();
     const { user, signInWithGoogle } = useAuth();
     const [newQuestion, setNewQuestion] = useState('');
+    const history = useHistory();
     const roomID = params.id;
     const { title, questions } = useRoom(roomID);
 
@@ -57,6 +59,16 @@ export function Room() {
     async function handleSignInWithGoogle() {
         if(!user) {
             await signInWithGoogle()
+        }
+
+        const roomRef = await database.ref(`rooms/${roomID}`).get();
+        const newUser = firebase.auth().currentUser;
+        console.log(newUser?.uid)
+        console.log(roomRef.val().authorId)
+
+        if(newUser?.uid === roomRef.val().authorId) {
+            history.push(`/admin/rooms/${roomID}`);
+            return;
         }
     }
 
