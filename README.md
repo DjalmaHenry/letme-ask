@@ -47,6 +47,8 @@ Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navega
 
 ## 🚀 Protótipo
 
+Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d1.web.app/).
+
 ---
 
 Feito por DjalmaHenry na #NLW6 Rocketseat missão ReactJS
