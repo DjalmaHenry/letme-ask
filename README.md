@@ -6,8 +6,8 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-protótipo">Protótipo</a>
+  <a href="#-protótipo">Protótipo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>
 </p>
 
 <br>
@@ -32,6 +32,10 @@ O Letme Ask é um app de perguntas, onde você pode criar uma sala de perguntas 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate?node-id=0%3A1).
+
+## 🚀 Protótipo
+
+Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d1.web.app/).
 
 ## 🚀 Como executar
 
@@ -58,10 +62,6 @@ REACT_APP_APP_ID
 - Inicie o servidor com `yarn start`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
-
-## 🚀 Protótipo
-
-Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d1.web.app/).
 
 ---
 
