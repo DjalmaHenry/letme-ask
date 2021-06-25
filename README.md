@@ -47,7 +47,7 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 - Ative o firebase authentication com a autenticação do google
 - Inicie o servidor com `yarn start` no terminal
 
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) no seu navegador.
 
 ---
 
