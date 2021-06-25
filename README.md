@@ -47,4 +47,4 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 
 ---
 
-Feito por DjalmaHenry na #NLW6 Rocketseat missão ReactJS
+Feito por DjalmaHenry na #NLW6 Rocketseat missão ReactJS.
