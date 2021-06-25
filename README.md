@@ -45,7 +45,7 @@ Você pode testar e usar o Letme Ask através [desse link](https://letmeask-139d
 - Crie um projeto no [Firebase](https://firebase.google.com/)
 - Adicione as credenciais do seu firebase em firebase.ts localizado na pasta services
 - Ative o firebase authentication com a autenticação do google
-- Inicie o servidor com `yarn start`
+- Inicie o servidor com `yarn start` no terminal
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
