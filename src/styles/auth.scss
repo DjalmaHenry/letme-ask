@@ -132,4 +132,13 @@
         }
     }
 
+    /* RESPONSIVIDADE */
+    /* mobile devices: -1023 */
+    @media (max-width: 1023px) {
+        aside {
+            all: unset;
+            visibility: hidden;
+            display: none;
+        }
+    }
 }
