@@ -135,6 +135,7 @@
     /* RESPONSIVIDADE */
     /* mobile devices: -1023 */
     @media (max-width: 1023px) {
+        height: 95vh;
         aside {
             all: unset;
             visibility: hidden;
