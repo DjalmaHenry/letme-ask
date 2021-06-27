@@ -34,7 +34,7 @@
 
 ## 📷 Versão mobile
 
-<div style="display: inline_block">
+<div style="display: inline_block" align="center">
     <img alt="sala visão admin" src="https://user-images.githubusercontent.com/45500812/123554235-6a448700-d755-11eb-8821-6cd4f3c9a523.png" width="30%">
     <img alt="sala visão admin" src="https://user-images.githubusercontent.com/45500812/123554251-73355880-d755-11eb-8db8-a324010fdc10.png" width="30%">
     <img alt="sala visão admin" src="https://user-images.githubusercontent.com/45500812/123554257-77fa0c80-d755-11eb-87d9-7ba85d39c18e.png" width="30%">
